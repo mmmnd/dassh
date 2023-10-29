@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="toasts"></div>
+    <div class="header">
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+        <div class="Rihla"><a href="#"><h1>Rihla</h1></a></div>
+        <div class="second-div-header">
+            <a href="#">Hotels</a>
+            <a href="#">Locations</a>
+            <a href="#">Reviews</a>
+        </div>
+    <div class="third-div-header">
+    <a href="#"><i class="fa-solid fa-user"></i></a>
+    <button class="booking-button">Booking</button>
+    <button class="Sign-In-button">Login</button>
+    
+    </div>
+    </div>
+    <nav class="mobile-nav">
+    
+    <button class="Sign-In-button" id="Sign-in-ham">Sign In</button>
+    <a href="#"><i class="fa-solid fa-user"></i></a>
+    <a href="#">Hotels</a>
+    <a href="#">Locations</a>
+    <a href="#">Reviews</a>
+    </nav>
+    <div class="background"></div>
+    
+    <div class="container">
+        <div class="content">
+            <h2 class="logo">Rihla</h2>
+            <div class="text-sci">
+                <h2>Welcome!<br><span>To our new website.</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, explicabo?</p>
+                <div class="social-icons">
+                    <i class="fa-brands fa-telegram fa-2x"></i>
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="logreg-box">
+            <div class="form-box login">
+                <form id="form-0" action="#">
+                    <h2>Log In</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input class="email-input" type="text" required>
+                        <label>Email</label>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                        <input class="password-input" type="password" required>
+                        <label>Password</label>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot password</a>
+                    </div>
+                    <button type="submit" class="btn-0">Log In</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <form id="form-1" action="#">
+                    <h2>Register</h2>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-user"></i></span>
+                        <input id="username" type="text" required>
+                        <label>Name</label>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                        <input class="email-input" type="text" required>
+                        <label > Email</label>
+                        <div class="error"></div>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                        <input class="password-input" type="password" required>
+                        <label>Password</label>
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class=""></i></span>
+                        <input id="password2" type="password" required>
+                        <label>Confirm your password</label>
+                        <div class="error"></div>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> I agree on the terms and conditions
+                    </div>
+                    <button type="submit" class="btn-0">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>  
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
